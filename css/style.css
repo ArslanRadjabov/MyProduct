@@ -145,6 +145,7 @@ body {
   color: #02897A;
   text-decoration: none;
   border-bottom: 1px solid #02897A;
+  font-size: 16px;
 }
 
 
@@ -236,7 +237,9 @@ body {
     width: 370px;
     text-align: center;
   }
-
+  .hero__link{
+    padding: 15px 24px;
+  }
 }
 
 .show{
