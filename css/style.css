@@ -215,10 +215,10 @@ body {
     flex-direction: column;
   }
   .hero__img{
-    position: absolute;
-    left: 20%;
-    align-items: center;
-    
+    position: relative;
+    left: 15%;
+    width: 340px;
+    align-items: center;  
   }
   .hero__img-item{
     width: 340px;
