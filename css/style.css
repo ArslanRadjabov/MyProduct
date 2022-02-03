@@ -196,6 +196,8 @@ body {
     font-size: 30px;
     z-index: 100;
     display: block;
+    position: relative;
+    right: 0px;
   }
   .header__logo{
     z-index: 100;
