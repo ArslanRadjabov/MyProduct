@@ -227,6 +227,7 @@ body {
     right: -30px;
   }
   .hero__desc{
+    padding: 0 10px;
     align-items: center;
     position: absolute;
     top: 70%;
