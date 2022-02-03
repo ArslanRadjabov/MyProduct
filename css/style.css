@@ -119,6 +119,7 @@ body {
   line-height: 60px;
   color: var(--text-color);
   margin-bottom: 18px;
+  width: 518px;
 }
 .hero__text {
   font-size: 18px;
@@ -214,24 +215,25 @@ body {
   }
   .hero__img{
     position: absolute;
-    left: 5%;
+    left: 20%;
     align-items: center;
-    margin: 0 auto;
+    
   }
   .hero__img-item{
-    width: 400px;
-    height: 400px;
+    width: 340px;
+    height: 350px;
     z-index: 1;
     right: -30px;
   }
   .hero__desc{
     align-items: center;
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 5%;
     width: 90%;
   }
   .hero__title{
+    width: 370px;
     text-align: center;
   }
 
