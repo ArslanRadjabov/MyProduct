@@ -164,7 +164,7 @@ body {
     height: 100%;
     position: absolute;
     top: -120%;
-    left: 30%;
+    right: 0;
     height: 100vh;
     z-index: 100;
     background-color: var(--menu-bgcolor);
@@ -176,9 +176,6 @@ body {
     transition: 0.4s ease all;
     gap: 20px;
     margin: 0 auto;
-  }
-  body{
-    /* overflow-x: hidden; */
   }
   .header__list{
     text-align: center;
