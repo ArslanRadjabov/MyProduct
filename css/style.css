@@ -216,9 +216,9 @@ body {
   }
   .hero__img{
     position: relative;
-    left: 15%;
     width: 340px;
-    align-items: center;  
+    align-items: center;
+    justify-content: center;  
   }
   .hero__img-item{
     width: 340px;
