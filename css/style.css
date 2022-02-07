@@ -350,6 +350,13 @@ body {
   .manage__main {
     padding: 50px 0;
   }
+  .manage__main {
+    flex-direction: column-reverse;
+    padding: 50px 0;
+  }
+  .manage__second{
+    flex-direction: column-reverse;
+  }
 }
 
 @media screen and (max-width: 768px){
@@ -418,7 +425,10 @@ body {
   }
   .header__logo{
     z-index: 100;
+
   }
+    
+
   .header__sign-up{
     margin:0 auto;
   }
@@ -463,6 +473,14 @@ body {
   .product__item{
     text-align: center;
     align-items: center;
+
+  }
+  .manage__main {
+    flex-direction: column-reverse;
+    padding: 50px 0;
+  }
+  .manage__second{
+    flex-direction: column-reverse;
   }
 }
 
