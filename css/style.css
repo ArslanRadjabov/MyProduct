@@ -217,7 +217,33 @@ body {
   }
 
 
-
+  .manage__img{
+    background-image: url('../images/laptop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+  }
+  /* FOOTER END */
+  /* CLIENTS HOW START */
+  .manage__laptop{
+    background-image: url('../images/img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+  }
+  .coll__img{
+   background-image: url('../images/laptop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: 100%;
+    /* min-height: 500px; */
+    height: 450px;
+  }
 
   .manage__main {
     padding: 50px 0;
@@ -2266,10 +2292,7 @@ input[type="email"]:focus{
       display: block; 
       margin: 0 auto;
   }
-
-  /* FOOTER END */
-  /* CLIENTS HOW START */
-
+ 
   .how__title{
       font-size: 32px;
       line-height: 48px;
@@ -2278,5 +2301,23 @@ input[type="email"]:focus{
   .how__img-box img{
       width: 349px;
       height: 195px;
+  }
+  .manage__img{
+    margin: 0;
+    min-height: 350px;
+    height: 300px;
+  }
+  /* FOOTER END */
+  /* CLIENTS HOW START */
+  .manage__laptop{
+    margin: 0;
+    min-height: 350px;
+    height: 300px;
+  }
+  .coll__img{
+    margin: 0;
+  
+    min-height: 350px;
+    height: 300px;
   }
 }
